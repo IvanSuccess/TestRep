@@ -1,0 +1,5 @@
+.main_img{position:relative;top:0;left:0;right:0;width:100vw;height:80vh}
+.main_img_1{background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/BMW_M5_IMG_0887.jpg/800px-BMW_M5_IMG_0887.jpg) no-repeat;background-size:cover}
+.abt{width:100vw;height:10vh;font-size:4rem;font-weight:700;background:#000;color:#fff}
+.abt>p{text-align:center;line-height:10vh}
+.text_book{margin:5% 0;width:80vw}
