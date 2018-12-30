@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
+	<script src= "script.js" defer></script>
 	<link rel="stylesheet" href="Styles/style.min.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
 			</div>
 			<div class="header_topbar_right-group">
 				<p> +38 (063) 658 13 48</p>
-				<img src="img/header_topbar_menu.png" alt="">
+				<img src="img/header_topbar_menu.png" alt="" class="burger_menu" onclick="OnOpen()">
 			</div>
 		</div>
 		<div class="header_main">
@@ -34,6 +35,47 @@
 		<button class="header_answer">
 			<img src="img/header_phone_icon.png" alt="">
 		</button>
+
+		<div class="burger">
+			<div class="header_socials">
+				<img src="img/header_social_1.png" alt="">
+				<img src="img/header_social_2.png" alt="">
+				<img src="img/header_social_3.png" alt="">
+			</div>
+			<div class="burger_top">
+				<p class="burger_h1">Меню</p>
+				<div class="burger_top_right-group">
+					<button>ОСТАВИТЬ ЗАЯВКУ</button>
+					<img src="img/header_burger_back.png" alt=""onclick="OnClose()">
+				</div>
+			</div>
+			<div class="burger_categories">
+				<div class="cat">
+					<p class="burger_categories_p">О нас</p>
+					<li>- Главная</li>
+					<li>- Галерея</li>
+					<li>- Процесс съемки</li>
+					<li>- Наши клиенты</li>
+					<li>- Контакты</li>
+					<li>- Отзывы</li>
+				</div>
+				<div class="cat">
+					<p class="burger_categories_p">Аренда</p>
+					<li>- Студий</li>
+					<li>- Оборудования</li>
+					<li>- Декораций</li>
+				</div>
+				<div class="cat">
+					<p class="burger_categories_p">Съемка</p>
+					<li>- Фотосъемка</li>
+					<li>- Видеосъемка</li>
+				</div>
+			</div>
+			<button class="header_answer">
+				<img src="img/header_phone_icon.png" alt="" >
+			</button>
+		</div>
+
 	</header>
 <!--
 	<section class="section_2">

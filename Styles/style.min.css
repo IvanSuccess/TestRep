@@ -22,6 +22,16 @@ h1{margin:5% 0 8% 7%;width:700px;font-size:42px;font-weight:700}
 .header_main>button{padding:15px 40px;background:0 0;color:#fff;border:2px solid #f6386a;border-radius:10px;font-weight:700;cursor:pointer}
 .header_answer{position:absolute;top:87vh;right:2.5vw;display:flex;justify-content:center;align-items:center;width:65px;height:65px;background:#f6386a;border:5px solid #af2549;border-radius:50%;cursor:pointer}
 .header_answer>img{width:25px;height:25px}
+.burger{position:absolute;top:-1000%;width:100vw;height:100vh;background:#272727}
+.burger_h1{position:relative;font-size:96px;font-weight:700;color:#fff;text-transform:uppercase}
+.burger_top_right-group>button{margin-right:150px;padding:15px 40px;min-width:230px;background:0 0;color:#fff;border:2px solid #f6386a;border-radius:10px;font-weight:700;cursor:pointer}
+.burger_top_right-group>img{width:27px;height:27px;cursor:pointer}
+.burger_top_right-group{display:flex;flex-flow:row nowrap;justify-content:center;align-items:center}
+.burger_top{position:absolute;top:15%;right:5%;left:20%;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;max-width:1500px;min-width:1000px;overflow:hidden}
+.burger_categories{position:absolute;top:40%;right:5%;left:20%;display:flex;flex-flow:row wrap;align-items:flex-start;max-width:1700px}
+.cat{padding:0 7%;color:#fff}
+.cat>li{margin:13% 0;font-size:26px;list-style:none;cursor:pointer}
+.burger_categories_p{padding-bottom:17%;font-size:36px;font-weight:700}
 @media screen and (max-width:1300px){
 .header_socials{position:absolute;top:5.5%;left:5%;display:flex;flex-flow:column nowrap;height:300px;justify-content:space-between;align-items:center}
 .header_socials>img{margin:8.5% 5%}
