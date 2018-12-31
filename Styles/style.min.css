@@ -70,3 +70,12 @@ h1{margin:5% 0 7% 0;width:500px;font-size:24px;font-weight:700}
 .section_1_about_text{font-size:20px;font-weight:700}
 .section_1_text-block_p{font-size:14px}
 }
+.section_2{top:0;left:0;right:0;height:40vh;background:#272727;display:flex;flex-flow:column nowrap;align-items:center}
+.section_2_h2{padding:5% 0;font-size:42px;font-weight:700;color:#fff}
+.section_2_gallery{width:364px;height:218px;border-radius:20px;color:#fff;font-weight:700;display:flex;flex-flow:column nowrap;align-items:center;text-align:center}
+.section_2_gallery_p{max-width:300px;padding-top:10%;font-size:24px}
+.s2_g_1{background:url(../img/section_2_gallery_1.jpg) no-repeat;background-size:cover}
+.s2_g_2{background:url(../img/section_2_gallery_2.jpg) no-repeat;background-size:cover}
+.s2_g_3{background:url(../img/section_2_gallery_3.jpg) no-repeat;background-size:cover}
+.s2_g_4{background:url(../img/section_2_gallery_4.jpg) no-repeat;background-size:cover}
+.section_2_wrapp{width:90vw;display:flex;flex-flow:row wrap;justify-content:space-around;align-items:center}
