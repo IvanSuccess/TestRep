@@ -2,6 +2,7 @@
 function OnOpen(){
 	var burger = document.getElementsByClassName("burger_menu");
 	var slideBurger = document.getElementsByClassName("burger");
+	var all = document.getElementsByTagName("body");
 
 /*	for(var i=0; i < goOut.length; i++){
 		goOut[i].style.display = 'none';
@@ -15,9 +16,14 @@ function OnOpen(){
 		slideBurger[0].style.top = j + "%";
 	}*/
 	slideBurger[0].style.top = "0";
+	all[0].style.overflow = "hidden";
+
 }
 function OnClose(){
 	var burger = document.getElementsByClassName("burger_menu");
 	var slideBurger = document.getElementsByClassName("burger");
+	var all = document.getElementsByTagName("body");
 	slideBurger[0].style.top = "-1000%";
+	all[0].style.overflowY = "visible";
+
 }
