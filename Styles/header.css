@@ -1,15 +1,15 @@
 header::before{
 	content: '';
 	position: absolute;
-	left:0;
-	right:0;
-	top:0;
+	width:100vw;
 	height:100vh;
 	background: url(../img/header_bg.jpg) no-repeat;
 	background-size:cover;
 	z-index: -1;
 }
 header{
+	position: relative;
+	top:0;
 	width:100vw;
 	height:100vh;
 	background: rgba(0,0,0,.4);
@@ -62,7 +62,7 @@ header{
 	max-width:15px;
 }
 .header_topbar_left-group>p{
-	width: 300px;
+	width: 290px;
 	max-height: 20px;
 	font-size: 18px;
 }
@@ -87,8 +87,8 @@ header{
 }
 h1{
 	margin: 5% 0 8% 7%;
-	width:700px;
-	font-size: 42px;
+	width:500px;
+	font-size: 32px;
 	font-weight: bold;
 }
 .header_main>button{
@@ -222,7 +222,7 @@ h1{
 	}
 	h1{
 		margin: 3% 0 6% 7%;
-		width:700px;
+		width:500px;
 		font-size: 24px;
 		font-weight: bold;
 	}
@@ -269,7 +269,7 @@ h1{
 	}
 	h1{
 		margin:5% 0 7% 0;
-		width:700px;
+		width:500px;
 		font-size: 24px;
 		font-weight: bold;
 	}
