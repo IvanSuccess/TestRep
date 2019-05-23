@@ -1,0 +1,99 @@
+@import url(reset.css);
+
+header::before{
+	content: '';
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	height:100vh;
+	background: url(https://images2.alphacoders.com/601/601078.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index:-1;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top:0;
+	left:0;
+	right:0;
+	height: 100vh;
+	background: rgba(0,0,0,.3);
+	color:#fff;
+}
+h1{
+	text-align: center;
+	font-size: 3.4rem;
+	font-family: 'Montserrat', sans-serif;
+}
+header>p{
+	margin: 1% 0;
+	font-size: 1.3rem;
+	font-family: 'Stylish', sans-serif;
+}
+.gallery>h2{
+	margin: 2% 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 3rem;
+	text-align: center;
+}
+.image{
+	margin: .5% 0;
+	width:600px;
+	height: 500px;
+	color:#fff;
+	text-align: center;
+	line-height: 500px;
+	font-size: 1.3rem;
+}
+.img1{
+	background: url(https://stmed.net/sites/default/files/ocean-wallpapers-27994-9924291.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Cute Font', cursive;
+}
+.img2{
+	background: url(https://wallpapershome.com/images/wallpapers/sea-3840x2160-5k-4k-wallpaper-ocean-shore-waves-night-5737.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Montaga', serif;
+}
+.img3{
+	background: url(https://cdn.suwalls.com/wallpapers/beaches/beautiful-colorful-sunset-sky-above-the-ocean-51680-1920x1200.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+.img4{
+	background: url(https://images.wallpaperscraft.ru/image/meduza_podvodnyj_mir_plavat_shchupaltsy_115120_2560x1440.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.img5{
+	background: url(https://media.idownloadblog.com/wp-content/uploads/2015/06/amazing-ocean-sea-beach-afternoon-nature-9-wallpaper.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+.img6{
+	background: url(https://wallpapershome.com/images/wallpapers/ocean-5120x2880-5k-4k-wallpaper-8k-sea-nature-underwater-water-sun-386.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+}
+.gallery__wrap{
+	display: flex;
+/* 	position: relative;
+top:0;
+left:0;
+right: 0;
+bottom: 0; */
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
